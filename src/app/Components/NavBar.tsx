@@ -1,66 +1,80 @@
 'use client'
 import { Menu, X } from 'lucide-react'
-import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '../../../public/Img/logo.png'
+import Link from 'next/link'
 import { useState } from 'react'
+import Logo from '../../../public/Img/logo.png'
 
 export default function NavBar() {
-  const [navbar, setNavbar] = useState(false)
-  const handleClick = () => {
-    if (navbar === true) {
-      setNavbar(false)
-    } else {
-      setNavbar(true)
-    }
-  }
+  const [open, setOpen] = useState(false)
+  const Links = [
+    {
+      name: 'Inicio',
+      link: '/',
+    },
+    {
+      name: 'Acomodações',
+      link: '/accommodations',
+    },
+    {
+      name: 'Sobre',
+      link: '/about',
+    },
+  ]
+
   return (
-    <nav className="flex items-center justify-around bg-bgNavBar pb-2 pt-2">
-      <div className="flex items-center gap-2">
-        <Image
-          src={Logo}
-          className="sm:w-8 md:w-10 lg:w-16"
-          alt="Logo Emilie Banko"
-        />
-        <h1 className="font_logo">Emilie Banko</h1>
-      </div>
-      <button
-        className="flex hidden justify-center max-md:block"
-        onClick={handleClick}
-      >
-        {!navbar && <Menu className="text-whiteColor" />}
-      </button>
-      {/* menu huburgue */}
-      {navbar && (
-        <div className="absolute right-0 top-0 hidden max-md:block ">
-          <button className=" absolute right-4 top-4 " onClick={handleClick}>
-            {navbar && <X className="  h-8 w-8 text-whiteColor" />}
-          </button>
-          <ul className="flex flex-col gap-7 rounded-l-3xl bg-bgNavBar px-20 py-56 text-center text-4xl font-bold text-whiteColor shadow-navBarShadow ">
-            <li className=" ">
-              <Link href="/">Inicio</Link>
-            </li>
-            <li className=" ">
-              <Link href="/accommodations">Acomodações</Link>
-            </li>
-            <li className=" ">
-              <Link href="/about">Sobre</Link>
-            </li>
-          </ul>
+    <nav className="w-full shadow-md">
+      <div className="items-center justify-between bg-bgNavBar px-7 py-4 md:flex md:px-10">
+        <Link
+          href={'/'}
+          className="flex cursor-pointer items-center  text-2xl  text-black sm:text-sm 
+      md:text-xl"
+        >
+          <Image
+            src={Logo}
+            className="sm:w-8 md:w-10 lg:w-16"
+            alt="Logo Emilie Banko"
+          />
+          <h1 className="font_logo">Emilie Banko</h1>
+        </Link>
+
+        <div
+          onClick={() => setOpen(!open)}
+          className="absolute right-8 top-6 cursor-pointer text-3xl md:hidden"
+        >
+          {open ? (
+            <Menu className="hidden" />
+          ) : (
+            <Menu className="text-center text-whiteColor" />
+          )}
         </div>
-      )}
-      {/* menu link */}
-      <div className="relative block max-md:hidden">
-        <ul className="flex gap-7 font-bold text-whiteColor ">
-          <li className=" ">
-            <Link href="/">Inicio</Link>
-          </li>
-          <li className=" ">
-            <Link href="/accommodations">Acomodações</Link>
-          </li>
-          <li className=" ">
-            <Link href="/about">Sobre</Link>
-          </li>
+
+        <ul
+          className={`absolute top-0 flex flex-col items-center gap-14 rounded-l-3xl bg-bgNavBar px-20 py-56 shadow-navBarShadow transition-all duration-500 ease-in md:static md:z-auto
+            md:w-auto md:flex-row md:items-center md:px-0 md:py-0 ${
+              open ? 'right-0 ' : 'right-[-490px] shadow-none'
+            }`}
+        >
+          <div
+            onClick={() => setOpen(!open)}
+            className="absolute right-8 top-6 cursor-pointer text-3xl md:hidden"
+          >
+            {open ? (
+              <X className="text-whiteColor" />
+            ) : (
+              <X className="hidden" />
+            )}
+          </div>
+          {Links.map((link) => (
+            <li key={link.name} className="text-4xl md:text-base">
+              <Link
+                href={link.link}
+                className="text-whiteColor duration-500 hover:text-hoverWhiteColor"
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

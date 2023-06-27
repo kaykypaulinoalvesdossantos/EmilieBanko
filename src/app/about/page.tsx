@@ -4,6 +4,7 @@ export default function About() {
   return (
     <>
       <NavBar />
+      <h1>Sobre</h1>
     </>
   )
 }
