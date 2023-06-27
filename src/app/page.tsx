@@ -1,3 +1,10 @@
+import NavBar from './Components/NavBar'
+
 export default function Page() {
-  return <h1>OPA </h1>
+  return (
+    <>
+      <NavBar />
+      <main></main>
+    </>
+  )
 }
