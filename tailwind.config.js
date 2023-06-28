@@ -17,6 +17,10 @@ module.exports = {
         whiteColor: '#EBF3F6',
         hoverWhiteColor: '#6FA8BE',
         backgroundBody: '#FFF8EC',
+        textColor: '#2F080C',
+        paragrafoText: '#254653',
+        bgButton: '#931926',
+        textButton: '#FFD284',
       },
       boxShadow: {
         navBarShadow: '0px 0px 30000px 20000px rgba(0, 0, 0, 0.30)',
