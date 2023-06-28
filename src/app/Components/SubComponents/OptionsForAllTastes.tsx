@@ -16,11 +16,11 @@ export default function OptionsForAllTastes() {
             alt={''}
             className="h-[300px] w-[300px] rounded-xl object-cover"
           />
-          <div className="flex flex-col justify-center space-y-6 max-sm:mt-5 max-sm:items-center md:ml-5 lg:ml-12 xl:ml-20">
+          <div className="flex flex-col justify-center space-y-6 max-md:ml-5 max-sm:mt-5 max-sm:items-center lg:ml-12 xl:ml-20">
             <span className="font_montserrat text-2xl font-bold text-textColor sm:text-base md:text-xl">
               Casamentos
             </span>
-            <p className="w-[500px] text-colorPText max-md:text-sm max-sm:w-80 max-sm:text-center max-sm:text-xs">
+            <p className="w-[500px] text-colorPText max-md:w-[300px] max-md:text-sm max-sm:w-80 max-sm:text-center max-sm:text-xs">
               Celebre o amor em grande estilo na nossa encantadora casa. Com
               paisagens deslumbrantes e amplos espaços, oferecemos o local
               perfeito para tornar seu casamento uma experiência memorável.
@@ -30,11 +30,11 @@ export default function OptionsForAllTastes() {
         </div>
 
         <div className="flex items-center justify-center text-start max-sm:flex-col md:ml-6 lg:ml-8">
-          <div className="flex flex-col justify-center space-y-6 max-sm:mb-5 max-sm:items-center md:ml-5 lg:ml-12 xl:ml-20">
+          <div className="flex  flex-col justify-center space-y-6 max-md:mr-4 max-sm:mb-5 max-sm:items-center lg:ml-12 xl:ml-20">
             <span className="font_montserrat text-2xl font-bold text-textColor sm:text-base md:text-xl">
               Aniversários
             </span>
-            <p className="w-[500px] text-colorPText max-md:text-sm max-sm:w-80 max-sm:text-center max-sm:text-xs">
+            <p className="w-[500px]  text-colorPText max-md:w-[300px] max-md:text-sm max-sm:w-80 max-sm:text-center max-sm:text-xs">
               Celebre seu aniversário em grande estilo na nossa incrível casa.
               Surpreenda seus convidados com uma festa inesquecível em um
               cenário encantador. Reserve agora e prepare-se para viver momentos
@@ -54,11 +54,11 @@ export default function OptionsForAllTastes() {
             alt={''}
             className="h-[300px] w-[300px] rounded-xl object-cover"
           />
-          <div className="flex flex-col justify-center space-y-6 max-sm:mt-5 max-sm:items-center md:ml-5 lg:ml-12 xl:ml-20">
+          <div className="flex flex-col justify-center space-y-6 max-md:ml-5 max-sm:mt-5 max-sm:items-center lg:ml-12 xl:ml-20">
             <span className="font_montserrat text-2xl font-bold text-textColor sm:text-base md:text-xl">
               Eventos
             </span>
-            <p className="w-[500px] text-colorPText max-md:text-sm max-sm:w-80 max-sm:text-center max-sm:text-xs">
+            <p className="w-[500px]  text-colorPText max-md:w-[300px] max-md:text-sm max-sm:w-80 max-sm:text-center max-sm:text-xs">
               Realize seu evento dos sonhos na nossa casa. Com ambientes
               versáteis e espaços amplos, oferecemos o local perfeito para
               tornar qualquer ocasião especial e memorável. Seja um casamento,
