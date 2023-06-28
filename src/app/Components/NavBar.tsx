@@ -52,7 +52,7 @@ export default function NavBar() {
         <ul
           className={`absolute top-0 flex flex-col items-center gap-14 rounded-l-3xl bg-bgNavBar px-20 py-56 shadow-navBarShadow transition-all duration-500 ease-in md:static md:z-auto
             md:w-auto md:flex-row md:items-center md:px-0 md:py-0 ${
-              open ? 'right-0 ' : 'right-[-490px] shadow-none'
+              open ? 'right-0 block' : 'right-[-490px] hidden shadow-none'
             }`}
         >
           <div

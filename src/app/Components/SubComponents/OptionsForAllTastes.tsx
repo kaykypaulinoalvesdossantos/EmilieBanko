@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function OptionsForAllTastes() {
   return (
     <div className="mt-28 flex flex-col items-center justify-center gap-16">
-      <h2 className="font_indie_flower text-4xl text-textColor md:text-5xl xl:text-7xl">
+      <h2 className="font_indie_flower text-center text-4xl text-textColor md:text-5xl xl:text-7xl">
         Opções para Todos os Gostos
       </h2>
       <div className="flex flex-col justify-center space-y-20">
