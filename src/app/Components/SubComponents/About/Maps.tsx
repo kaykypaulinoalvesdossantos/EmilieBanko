@@ -1,8 +1,10 @@
 'use client'
+/* eslint-disable no-var */
 import { useEffect } from 'react'
-import { Loader } from '@googlemaps/js-api-loader'
 import Link from 'next/link'
 import { MapPin } from 'lucide-react'
+import { Loader } from '@googlemaps/js-api-loader'
+declare let google: any
 
 export default function Maps() {
   useEffect(() => {
@@ -10,6 +12,7 @@ export default function Maps() {
       apiKey: 'AIzaSyDzrWpRK7iWl_IG9eVoDSXaOFvaal8JM_8',
       version: 'weekly',
     })
+
     loader.load().then(() => {
       const map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: -21.120858097929833, lng: -44.226039927581624 },
@@ -17,6 +20,7 @@ export default function Maps() {
         disableDefaultUI: true,
       })
 
+      // eslint-disable-next-line no-unused-vars
       const marker = new google.maps.Marker({
         position: { lat: -21.120858097929833, lng: -44.226039927581624 },
         map,
