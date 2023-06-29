@@ -60,7 +60,7 @@ export default function SliderFull() {
         {Imgs.map((IMG, Index) => (
           <SwiperSlide
             key={Index}
-            className="!h-[695px] object-cover text-white max-lg:!h-[495px] max-md:!h-[370px] max-sm:!h-[308px]"
+            className="!z-0 !h-[695px] object-cover text-white max-lg:!h-[495px] max-md:!h-[370px] max-sm:!h-[308px]"
           >
             <Image src={IMG.URL} alt="" />
           </SwiperSlide>

@@ -50,7 +50,7 @@ export default function NavBar() {
         </div>
 
         <ul
-          className={`absolute top-0 flex flex-col items-center gap-14 rounded-l-3xl bg-bgNavBar px-20 py-56 shadow-navBarShadow transition-all duration-500 ease-in md:static md:z-auto
+          className={`absolute top-0 z-10 flex flex-col items-center gap-14 rounded-l-3xl bg-bgNavBar px-20 py-56 shadow-navBarShadow transition-all duration-500 ease-in md:static
             md:w-auto md:flex-row md:items-center md:px-0 md:py-0 ${
               open
                 ? 'right-0 block'

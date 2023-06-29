@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 export default function Contact() {
   return (
-    <div className="mt-24 flex justify-center space-x-36 max-lg:mt-20 max-md:mt-12 max-md:space-x-20 max-sm:space-x-8 max-[320px]:space-x-1 ">
-      <div className="flex flex-col items-center justify-center ">
+    <div className="mt-24 flex justify-center gap-36 max-lg:mt-20 max-lg:gap-20 max-md:mt-12 max-md:gap-10 max-sm:flex-col max-sm:gap-9">
+      <div className=" flex flex-col items-center justify-center ">
         <h2 className="font_montserrat text-center text-4xl font-bold text-textColor max-md:text-3xl  max-sm:text-2xl">
           Contatos
         </h2>
@@ -25,11 +25,11 @@ export default function Contact() {
           </button>
         </Link>
       </div>
-      <span className="h-[460px] w-1 bg-textColor" />
-      <div className="flex flex-col justify-center space-y-8">
+      <span className="h-[460px] w-1 bg-textColor max-sm:hidden" />
+      <div className="flex flex-col justify-center space-y-8 max-sm:items-center">
         <div>
-          <h3 className="font_montserrat text-2xl text-textColor max-sm:text-xl">
-            Telefones:
+          <h3 className="font_montserrat text-2xl text-textColor max-sm:text-center max-sm:text-xl">
+            Telefones
           </h3>
           <Link
             href={
@@ -38,16 +38,16 @@ export default function Contact() {
             target="_blank"
             className="max-sm:mt-2"
           >
-            <p className="font_montserrat text-xl text-textColor max-sm:text-base">
+            <p className="font_montserrat text-xl text-textColor max-sm:text-center max-sm:text-base">
               (32) 98503-2616
             </p>
           </Link>
         </div>
         <div>
-          <h3 className="font_montserrat text-2xl text-textColor max-sm:text-xl">
+          <h3 className="font_montserrat text-2xl text-textColor max-sm:text-center max-sm:text-xl">
             E-mail
           </h3>
-          <h3 className="font_montserrat text-xl text-textColor max-sm:mt-2 max-sm:text-xs max-[320px]:text-[10px]">
+          <h3 className="font_montserrat text-xl text-textColor max-sm:mt-2 max-sm:text-center max-sm:text-xs max-[360px]:text-[10px]">
             espacoemiliebanko@gmail.com
           </h3>
         </div>
