@@ -24,6 +24,7 @@ module.exports = {
         colorPText: '#132329',
         BgColorRed: '#37090E',
         ColorMap: '#D32437',
+        pColorDarkRed: '#410B10',
       },
       boxShadow: {
         navBarShadow: '0px 0px 30000px 20000px rgba(0, 0, 0, 0.30)',

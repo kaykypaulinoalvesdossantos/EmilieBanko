@@ -17,7 +17,7 @@ export default function ReserveNow() {
         target="_blank"
       >
         <button className="font_inter rounded-xl border-4  border-bgButton bg-bgButton px-6 py-4 font-bold text-textButton  hover:border-solid hover:bg-transparent ">
-          Veja Mais
+          Entre em Contato!
         </button>
       </Link>
     </div>
