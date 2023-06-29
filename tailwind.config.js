@@ -23,9 +23,11 @@ module.exports = {
         textButton: '#FFD284',
         colorPText: '#132329',
         BgColorRed: '#37090E',
+        ColorMap: '#D32437',
       },
       boxShadow: {
         navBarShadow: '0px 0px 30000px 20000px rgba(0, 0, 0, 0.30)',
+        mapBoxShadow: '-10px 10px 30px 7px rgba(47, 8, 12, 0.30);',
       },
     },
   },
