@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Welcome() {
   return (
-    <div className="my-24 flex items-center justify-center space-x-24 ">
+    <div className="my-24 flex items-center justify-center space-x-24 max-sm:space-x-0">
       <h2 className="font_montserrat w-[370px] text-4xl font-bold text-textColor max-md:w-[240px] max-md:text-xl ">
         Sejam bem-vindos à Emilie Banko
       </h2>
