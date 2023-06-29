@@ -2,15 +2,15 @@ import Link from 'next/link'
 
 export default function Contact() {
   return (
-    <div className="mt-24 flex justify-center space-x-36 max-lg:mt-20 max-md:mt-12 max-md:space-x-20 max-sm:space-x-8 ">
+    <div className="mt-24 flex justify-center space-x-36 max-lg:mt-20 max-md:mt-12 max-md:space-x-20 max-sm:space-x-8 max-[320px]:space-x-1 ">
       <div className="flex flex-col items-center justify-center ">
-        <h2 className="font_montserrat text-4xl font-bold text-textColor max-md:text-3xl max-sm:text-2xl">
+        <h2 className="font_montserrat text-center text-4xl font-bold text-textColor max-md:text-3xl  max-sm:text-2xl">
           Contatos
         </h2>
-        <h1 className="font_montserrat mb-3 mt-5 text-4xl font-medium text-textColor max-md:text-3xl max-sm:text-2xl">
+        <h1 className="font_montserrat mb-3 mt-5 text-center text-4xl font-medium text-textColor max-md:text-3xl max-sm:text-2xl">
           Emilie Banko
         </h1>
-        <p className="text-xl max-md:text-base max-sm:text-sm ">
+        <p className="text-center text-xl max-md:text-base max-sm:text-sm ">
           Visite nosso SuperHost Airbnb
         </p>
         <Link
@@ -20,7 +20,7 @@ export default function Contact() {
           target="_blank"
           className="mt-12 max-md:mt-10 max-sm:mt-7"
         >
-          <button className="font_inter rounded-xl border-4  border-bgButton bg-bgButton px-6 py-4 font-bold text-textButton  hover:border-solid hover:bg-transparent ">
+          <button className="font_inter rounded-xl border-4  border-bgButton bg-bgButton px-6 py-4 font-bold text-textButton hover:border-solid hover:bg-transparent  max-sm:px-3 max-sm:py-2 ">
             Reserve Já!
           </button>
         </Link>
@@ -47,9 +47,9 @@ export default function Contact() {
           <h3 className="font_montserrat text-2xl text-textColor max-sm:text-xl">
             E-mail
           </h3>
-          <p className="font_montserrat text-xl text-textColor max-sm:mt-2 max-sm:text-base">
+          <h3 className="font_montserrat text-xl text-textColor max-sm:mt-2 max-sm:text-xs max-[320px]:text-[10px]">
             espacoemiliebanko@gmail.com
-          </p>
+          </h3>
         </div>
       </div>
     </div>

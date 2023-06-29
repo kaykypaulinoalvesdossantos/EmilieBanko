@@ -51,7 +51,7 @@ export default function Maps() {
 
   return (
     <div className="relative">
-      <div className="absolute right-[114px] top-[150px] z-10 flex h-[400px] w-[400px] flex-col items-center justify-center rounded-[30px]  bg-white shadow-mapBoxShadow max-lg:right-[99px]  max-lg:top-[75px]  max-lg:h-[350px] max-lg:w-[350px] max-md:right-[63px] max-md:top-[75px] max-md:h-[300px] max-md:w-[300px] max-sm:right-[46px] max-sm:top-[84px] max-sm:h-[250px] max-sm:w-[300px]">
+      <div className="absolute right-[114px] top-[150px] z-10 flex h-[400px] w-[400px] flex-col items-center justify-center rounded-[30px]  bg-white shadow-mapBoxShadow max-lg:right-[99px]  max-lg:top-[75px]  max-lg:h-[350px] max-lg:w-[350px] max-md:right-[63px] max-md:top-[75px] max-md:h-[300px] max-md:w-[300px] max-sm:right-[46px] max-sm:top-[84px] max-sm:h-[250px] max-sm:w-[300px] max-[320px]:left-[1%] max-[320px]:right-[1%]   ">
         <MapPin className="max-lg:[76px] h-20 w-[70px] text-ColorMap max-lg:w-[61px] max-md:h-[65px] max-md:w-[52px]" />
         <h1 className="font_montserrat max-lg:[295px] mb-14 mt-6 w-[340px] text-center text-xl font-medium text-textColor max-lg:mb-5 max-lg:mt-6 max-md:mb-8 max-md:mt-3 max-md:w-[259px] max-sm:mb-[50px] max-sm:mt-2 max-sm:w-[269px] max-sm:text-base ">
           Rua Arnóbio Caldeira Franco, 491 Santa Cruz de Minas , MG - CEP
