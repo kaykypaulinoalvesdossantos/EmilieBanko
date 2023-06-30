@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function ReserveNow() {
   return (
-    <div className="mt-28 flex flex-col items-center justify-center space-y-7">
+    <div className=" flex flex-col items-center justify-center space-y-7">
       <h3 className="font_montserrat text-4xl font-bold text-textColor">
         Reserve Já
       </h3>

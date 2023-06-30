@@ -31,7 +31,7 @@ export default function SliderDepositions() {
               <h2 className="font_montserrat text-3xl font-bold text-textColor max-lg:text-2xl max-md:text-xl max-sm:text-base">
                 {depositions.title}
               </h2>
-              <p className="font_montserrat max-cell:w-[300px] mt-8 w-[1100px] text-2xl text-textColor max-lg:w-[850px] max-lg:text-base max-md:w-[630px] max-md:text-sm max-sm:w-[450px] max-sm:text-xs">
+              <p className="font_montserrat mt-8 w-[1100px] text-2xl text-textColor max-lg:w-[850px] max-lg:text-base max-md:w-[630px] max-md:text-sm max-sm:w-[450px] max-sm:text-xs max-cell:w-[300px]">
                 {depositions.text}
               </p>
               <h3 className="font_montserrat mt-6 text-3xl font-medium text-textColor max-lg:text-2xl max-md:text-xl max-sm:text-base">
