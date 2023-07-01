@@ -7,8 +7,8 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 
 // import required modules
-import { slideItem } from './slideSkill'
 import Image from 'next/image'
+import { slideItem } from '@/app/mock/slideSkill'
 
 export default function App() {
   return (

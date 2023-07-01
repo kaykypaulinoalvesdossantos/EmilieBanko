@@ -34,7 +34,8 @@ module.exports = {
         mapBoxShadow: '-10px 10px 30px 7px rgba(47, 8, 12, 0.30);',
       },
       screens: {
-        cell: '360px',
+        cell: '400px',
+        cellSliderDepositions: '500px',
       },
     },
   },

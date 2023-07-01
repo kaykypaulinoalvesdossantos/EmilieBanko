@@ -1,6 +1,6 @@
-import Img from '@/../public/Img/327691101_573498604637961_7227717472882833476_n.jpg'
-import Img2 from '@/../public/Img/344383232_1423682238388471_2488840116323363720_n.jpg'
-import Img3 from '@/../public/Img/342382278_781197200278115_4843577159691609571_n.jpg'
+import Img from '@/app/assets/img/IMG02.jpg'
+import Img2 from '@/app/assets/img/IMG03.jpg'
+import Img3 from '@/app/assets/img/IMG05.jpg'
 import Image from 'next/image'
 
 export default function OptionsForAllTastes() {

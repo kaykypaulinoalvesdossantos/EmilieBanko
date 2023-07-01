@@ -6,7 +6,7 @@ export default function YouWillBeDelighted() {
       <h2 className="font_montserrat text-center text-6xl font-bold text-pColorDarkRed max-lg:text-5xl max-md:text-4xl   ">
         Você irá se encantar!
       </h2>
-      <p className=" mb-12 mt-8 w-[1000px] text-center text-2xl font-normal text-pColorDarkRed max-lg:w-[750px] max-lg:text-base max-md:mt-5 max-md:w-[650px] max-md:text-sm max-sm:mb-4 max-sm:mt-4 max-sm:w-[350px]">
+      <p className=" mb-12 mt-8 w-[1000px] text-center text-2xl font-normal text-pColorDarkRed max-lg:w-[750px] max-lg:text-base max-md:mt-5 max-md:w-[650px] max-md:text-sm max-sm:mb-4 max-sm:mt-4 max-sm:w-[350px] max-cell:w-[300px]">
         Nossas acomodações na são cuidadosamente projetadas para oferecer o
         máximo de conforto aos nossos hóspedes. Com vários quartos bem decorados
         e mobiliados, garantimos uma estadia aconchegante e relaxante. Cada
