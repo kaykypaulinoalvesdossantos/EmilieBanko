@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function FindyourPerfectHome() {
   return (
     <div className="mt-28 flex flex-col items-center justify-center">
-      <h2 className="font_montserrat text-center text-4xl font-bold text-textColor md:text-5xl lg:text-7xl">
+      <h2 className="font_montserrat text-center text-4xl font-bold text-textColor md:text-5xl lg:w-[1000px] lg:text-7xl">
         Aqui você encontra o lugar Perfeito !
       </h2>
       <p className="mb-10 mt-5 text-center text-paragrafoText max-md:w-80 max-sm:w-64 lg:w-96">
