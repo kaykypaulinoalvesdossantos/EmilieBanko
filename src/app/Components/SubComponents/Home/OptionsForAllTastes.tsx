@@ -1,6 +1,6 @@
-import Img from '@/app/assets/img/IMG02.jpg'
-import Img2 from '@/app/assets/img/IMG03.jpg'
-import Img3 from '@/app/assets/img/IMG05.jpg'
+import Img from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-03.jpg'
+import Img2 from '@/app/assets/images/EspaçoGourmet/Espaço-Gourmet-02.jpg'
+import Img3 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-05.jpg'
 import Image from 'next/image'
 
 export default function OptionsForAllTastes() {

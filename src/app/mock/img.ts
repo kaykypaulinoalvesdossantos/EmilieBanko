@@ -1,9 +1,11 @@
-import slide1 from '../assets/img/IMG01.jpg'
-import slide2 from '../assets/img/IMG02.jpg'
-import slide3 from '../assets/img/IMG03.jpg'
-import slide4 from '../assets/img/IMG04.jpg'
-import slide5 from '../assets/img/IMG05.jpg'
-import slide6 from '../assets/img/IMG06.jpg'
+import slide1 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-01.jpg'
+import slide2 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-02.jpeg'
+import slide3 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-03.jpg'
+import slide4 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-04.jpg'
+import slide5 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-05.jpg'
+import slide6 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-06.jpg'
+import slide7 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-07.jpeg'
+import slide8 from '@/app/assets/images/Casapartedefora/Casa-Parte-De-Fora-08.jpg'
 
 export const slideImg = [
   {
@@ -30,22 +32,12 @@ export const slideImg = [
     id: 6,
     dir: slide6,
   },
+  {
+    id: 7,
+    dir: slide7,
+  },
+  {
+    id: 8,
+    dir: slide8,
+  },
 ]
-
-// const test = [
-//   {
-//     id: 1,
-//     titulo: 'teste',
-//     text: 'teste',
-//     slides: [
-//       {
-//         img: 'teste1',
-//       },
-//       {
-//         img: 'teste2',
-//       },
-//       { img: 'teste3' },
-//       { img: 'teste4' },
-//     ],
-//   },
-// ]

@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-import { Pagination } from 'swiper'
+import { Autoplay, Pagination } from 'swiper'
 import Image from 'next/image'
 
 import './styles.css'
@@ -17,8 +17,12 @@ export default function SliderAccommodations({ images }: any) {
       pagination={{
         clickable: true,
       }}
-      modules={[Pagination]}
+      modules={[Pagination, Autoplay]}
       className="mySwiper !h-[300px] !w-[300px]"
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
     >
       {images.map((item: any, index: Key | null | undefined) => (
         <SwiperSlide key={index} className=" !bg-transparent">

@@ -9,6 +9,7 @@ import 'swiper/css/pagination'
 // import required modules
 import Image from 'next/image'
 import { slideItem } from '@/app/mock/slideSkill'
+import { Autoplay } from 'swiper'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           disableOnInteraction: false,
         }}
         spaceBetween={0}
+        modules={[Autoplay]}
         breakpoints={{
           425: {
             slidesPerView: 3,
