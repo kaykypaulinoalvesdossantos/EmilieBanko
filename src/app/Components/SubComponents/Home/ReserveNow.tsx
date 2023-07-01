@@ -7,7 +7,7 @@ export default function ReserveNow() {
         Reserve Já
       </h3>
       <p className="w-[30rem] text-center text-colorPText max-sm:w-72 max-sm:text-sm">
-        Não perca tempo e garanta sua casa de temporada! Viva momentos
+        Não perca tempo e garanta sua casa por temporada! Viva momentos
         inesquecíveis com seus entes queridos.
       </p>
       <Link

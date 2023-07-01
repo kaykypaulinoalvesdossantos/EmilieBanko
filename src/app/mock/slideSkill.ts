@@ -47,7 +47,7 @@ export const slideItem = [
     img: Suite5,
   },
   {
-    name: 'Bar Com Churrasqueira',
+    name: 'Barzinho',
     img: Bar,
   },
 ]

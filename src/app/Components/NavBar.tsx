@@ -45,7 +45,7 @@ export default function NavBar() {
           {open ? (
             <Menu className="hidden" />
           ) : (
-            <Menu className="text-center text-whiteColor" />
+            <Menu className="h-[40px] w-[40px] text-center text-whiteColor" />
           )}
         </div>
 
@@ -62,7 +62,7 @@ export default function NavBar() {
             className="absolute right-8 top-6 cursor-pointer text-3xl md:hidden"
           >
             {open ? (
-              <X className="text-whiteColor" />
+              <X className="h-[40px] w-[40px] text-whiteColor" />
             ) : (
               <X className="hidden" />
             )}

@@ -19,11 +19,11 @@ export default function SliderFull() {
       <div className="relative">
         <div className="absolute left-1/2 top-1/2 z-10 flex -translate-x-1/2 -translate-y-1/2 transform flex-col items-center">
           <h2 className="font_montserrat mb-4 text-center text-6xl font-bold text-whiteColor max-lg:text-5xl max-md:text-4xl max-sm:text-3xl">
-            Casa Espetaculares Esperando por você
+            Casa Espetacular Esperando por você
           </h2>
           <p className="w-[430px] text-center text-lg font-normal text-whiteColor max-md:text-sm max-sm:w-[300px] max-sm:text-xs">
-            Explore nossa seleção de casas fantásticas para aluguel por
-            temporada, aconchegantes e luxuosas
+            Explore nossa fantástica casa para aluguel por temporada, um espaço
+            acolhedor e luxuoso.
           </p>
         </div>
         <Swiper

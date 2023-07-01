@@ -94,7 +94,7 @@ export const accommodationsConfig = [
   },
   {
     id: 2,
-    name: 'Suíte 3',
+    name: 'Suíte 2',
     slide: [
       {
         img: Suite0205,
@@ -157,7 +157,7 @@ export const accommodationsConfig = [
         img: Suite0405,
       },
     ],
-    information: `Nossa suíte oferece acomodações versáteis e espaçosas, ideais para grupos ou famílias. Com dois ambientes distintos, você encontrará camas de solteiro, uma estante e camas de casal aconchegantes, juntamente com um elegante rack de madeira com TV. Todos os espaços contam com ar-condicionado para garantir conforto durante toda a estadia. Desfrute de momentos inesquecíveis juntos, enquanto cada um desfruta de seu próprio espaço pessoal nesta suíte espaçosa e acolhedora.`,
+    information: `Nossa suíte versátil e espaçosa é perfeita para grupos ou famílias. Com ambientes distintos, oferece camas de solteiro, estante, camas de casal aconchegantes e um elegante rack de madeira com TV. O ar-condicionado garante conforto em todos os espaços. Desfrute de momentos inesquecíveis juntos nesta suíte acolhedora.`,
   },
   {
     id: 5,

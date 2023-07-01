@@ -40,7 +40,7 @@ export default function App() {
                 alt={''}
                 className="!h-[250px] !w-[250px] cursor-grab rounded-3xl border-4 border-solid border-colorBorder max-lg:!h-[200px] max-lg:!w-[200px] max-md:!h-[150px] max-md:!w-[150px] max-sm:!h-[130px] max-sm:!w-[130px] "
               />
-              <h4 className="text-2xl font-bold text-whiteColor max-md:text-xl max-sm:text-base ">
+              <h4 className="text-center text-2xl font-bold text-whiteColor max-md:text-xl max-sm:text-base ">
                 {item.name}
               </h4>
             </div>
